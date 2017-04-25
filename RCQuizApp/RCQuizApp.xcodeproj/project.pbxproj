@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE3A2B951E2C2E9800EFE3DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3A2B941E2C2E9800EFE3DC /* AppDelegate.swift */; };
+		EE3A2B971E2C2E9800EFE3DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3A2B961E2C2E9800EFE3DC /* ViewController.swift */; };
+		EE3A2B9A1E2C2E9800EFE3DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3A2B981E2C2E9800EFE3DC /* Main.storyboard */; };
+		EE3A2B9C1E2C2E9800EFE3DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3A2B9B1E2C2E9800EFE3DC /* Assets.xcassets */; };
+		EE3A2B9F1E2C2E9800EFE3DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3A2B9D1E2C2E9800EFE3DC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE3A2B911E2C2E9800EFE3DC /* RCQuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCQuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3A2B941E2C2E9800EFE3DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE3A2B961E2C2E9800EFE3DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE3A2B991E2C2E9800EFE3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE3A2B9B1E2C2E9800EFE3DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE3A2B9E1E2C2E9800EFE3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE3A2BA01E2C2E9800EFE3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE3A2B8E1E2C2E9800EFE3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE3A2B881E2C2E9800EFE3DC = {
+			isa = PBXGroup;
+			children = (
+				EE3A2B931E2C2E9800EFE3DC /* RCQuizApp */,
+				EE3A2B921E2C2E9800EFE3DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE3A2B921E2C2E9800EFE3DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE3A2B911E2C2E9800EFE3DC /* RCQuizApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE3A2B931E2C2E9800EFE3DC /* RCQuizApp */ = {
+			isa = PBXGroup;
+			children = (
+				EE3A2B941E2C2E9800EFE3DC /* AppDelegate.swift */,
+				EE3A2B961E2C2E9800EFE3DC /* ViewController.swift */,
+				EE3A2B981E2C2E9800EFE3DC /* Main.storyboard */,
+				EE3A2B9B1E2C2E9800EFE3DC /* Assets.xcassets */,
+				EE3A2B9D1E2C2E9800EFE3DC /* LaunchScreen.storyboard */,
+				EE3A2BA01E2C2E9800EFE3DC /* Info.plist */,
+			);
+			path = RCQuizApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE3A2B901E2C2E9800EFE3DC /* RCQuizApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3A2BA31E2C2E9800EFE3DC /* Build configuration list for PBXNativeTarget "RCQuizApp" */;
+			buildPhases = (
+				EE3A2B8D1E2C2E9800EFE3DC /* Sources */,
+				EE3A2B8E1E2C2E9800EFE3DC /* Frameworks */,
+				EE3A2B8F1E2C2E9800EFE3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCQuizApp;
+			productName = RCQuizApp;
+			productReference = EE3A2B911E2C2E9800EFE3DC /* RCQuizApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE3A2B891E2C2E9800EFE3DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Michael Chung";
+				TargetAttributes = {
+					EE3A2B901E2C2E9800EFE3DC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE3A2B8C1E2C2E9800EFE3DC /* Build configuration list for PBXProject "RCQuizApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE3A2B881E2C2E9800EFE3DC;
+			productRefGroup = EE3A2B921E2C2E9800EFE3DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE3A2B901E2C2E9800EFE3DC /* RCQuizApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE3A2B8F1E2C2E9800EFE3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3A2B9F1E2C2E9800EFE3DC /* LaunchScreen.storyboard in Resources */,
+				EE3A2B9C1E2C2E9800EFE3DC /* Assets.xcassets in Resources */,
+				EE3A2B9A1E2C2E9800EFE3DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE3A2B8D1E2C2E9800EFE3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3A2B971E2C2E9800EFE3DC /* ViewController.swift in Sources */,
+				EE3A2B951E2C2E9800EFE3DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE3A2B981E2C2E9800EFE3DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE3A2B991E2C2E9800EFE3DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE3A2B9D1E2C2E9800EFE3DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE3A2B9E1E2C2E9800EFE3DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE3A2BA11E2C2E9800EFE3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE3A2BA21E2C2E9800EFE3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE3A2BA41E2C2E9800EFE3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RCQuizApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.RCQuizApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE3A2BA51E2C2E9800EFE3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RCQuizApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.RCQuizApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE3A2B8C1E2C2E9800EFE3DC /* Build configuration list for PBXProject "RCQuizApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3A2BA11E2C2E9800EFE3DC /* Debug */,
+				EE3A2BA21E2C2E9800EFE3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE3A2BA31E2C2E9800EFE3DC /* Build configuration list for PBXNativeTarget "RCQuizApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3A2BA41E2C2E9800EFE3DC /* Debug */,
+				EE3A2BA51E2C2E9800EFE3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE3A2B891E2C2E9800EFE3DC /* Project object */;
+}
